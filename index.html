@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Deborah Sherwin</title>
+	<link href="assets/css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main-content">
+
+    <div class="all-projects page">
+
+        <h3>Deborah Sherwin</h3>
+
+        <!-- <div class="filters">
+            <form>
+                Checkboxes here
+            </form>
+        </div> -->
+
+    <ul class="projects-list">
+      <script id="products-template" type="x-handlebars-template">​
+        {{#each this}}
+          <li data-index="{{id}}">
+          	<figure>
+            <a href="#" ><div class="cover-photo" style="background-image:url("{{images.cover}}") alt="{{projectName}}"></div></a>
+            <figcaption>{{projectName}}</figcaption>
+            </figure>
+            <div class="highlight"></div>
+          </li>
+        {{/each}}
+      </script> 
+    </ul>
+
+
+   	<div class="background">
+   		<ul>
+   			<li>D</li>
+   			<li>E</li>
+   			<li>B</li>
+   			<li>O</li>
+   			<li>R</li>
+   			<li>A</li>
+   			<li>H</li>
+   		</ul>
+   	</div>
+
+    </div>
+
+    <div class="single-product page">
+
+        <div class="overlay"></div>
+
+        <div class="preview-large">
+            <h3>Single product view</h3>
+            <img src=""/>
+            <p></p>
+
+            <span class="close">&times;</span>
+        </div>
+
+    </div>
+
+    <div class="error page">
+        <h3>Sorry, something went wrong :(</h3>
+    </div>
+
+</div>
+
+
+
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+  <script src="assets/js/script.js"></script>
+</html>
