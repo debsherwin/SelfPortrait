@@ -87,6 +87,8 @@ $(function () {
       if (clicked.hasClass('close') || clicked.hasClass('overlay')) {
         // Change the url hash with the last used filters.
         createQueryHash(filters);
+        // show the project list
+        $('.projects-list').removeClass('hidden');
       }
 
     }
@@ -107,6 +109,9 @@ $(function () {
 
     // Manually trigger a hashchange to start the app.
     $(window).trigger('hashchange');
+
+
+    $( ".sampletext" ).load( "assets/content/sampletext1.html" );
   });
 
 
@@ -138,7 +143,11 @@ $(function () {
         checkboxes.prop('checked',false);
 
         renderProductsPage(products);
+
+        // Show the project list, if it was hidden
+      $('.projects-list').removeClass('hidden');
       },
+
 
       // Single Products page.
       '#product': function() {
@@ -248,15 +257,18 @@ $(function () {
       data.forEach(function (item) {
         if(item.id == index){
           // Populate '.preview-large' with the chosen product's data.
-          container.find('h3').text(item.projectName);
+          container.find('h2').text(item.projectName);
           container.find('img').attr('src', item.images.cover);
           container.find('p').text(item.description);
+          container.find('#projectDescription').load( "assets/content/projectDescription"+item.id+".html" );
         }
       });
     }
 
     // Show the page.
     page.addClass('visible');
+    // Hide the project list
+    $('.projects-list').addClass('hidden');
 
   }
 

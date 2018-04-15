@@ -4,70 +4,84 @@
     <meta charset="utf-8">
     <title>Deborah Sherwin</title>
 	<link href="assets/css/styles.css" rel="stylesheet">
+  <script type="text/javascript">
+    (function() {
+        var trial = document.createElement('script');
+        trial.type = 'text/javascript';
+        trial.async = true;
+        trial.src = 'https://easy.myfonts.net/v2/js?sid=241600(font-family=Tabia)&sid=241601(font-family=Tabia+Light)&sid=241604(font-family=Tabia+Medium)&sid=241606(font-family=Tabia+DemiBold)&key=zMcJv6bbLh';
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(trial);
+    })();
+</script>
   </head>
 
   <body>
     <div class="main-content">
 
-    <div class="all-projects page">
+      <div class="all-projects page">
 
-        <h3>Deborah Sherwin</h3>
+        <h1 style="font-family: Tabia Medium;">Deborah Sherwin</h1>
+        <div style="font-family: Tabia Medium;font-size:22px;"> This is an intro about who I am</div>
+        <div class='sampletext'></div>
 
-        <!-- <div class="filters">
-            <form>
-                Checkboxes here
-            </form>
-        </div> -->
+          <!-- <div class="filters">
+              <form>
+                  Checkboxes here
+              </form>
+          </div> -->
 
-    <ul class="projects-list">
-      <script id="products-template" type="x-handlebars-template">​
-        {{#each this}}
-          <li data-index="{{id}}">
-          	<figure>
-            <a href="#" ><div class="cover-photo" style="background-image:url("{{images.cover}}") alt="{{projectName}}"></div></a>
-            <figcaption>{{projectName}}</figcaption>
-            </figure>
-            <div class="highlight"></div>
-          </li>
-        {{/each}}
-      </script> 
-    </ul>
+        <ul class="projects-list">
+          <div id="hack"></div>
+          <script id="products-template" type="x-handlebars-template">​
+            {{#each this}}
+              <li data-index="{{id}}">
+              	<figure>
+                <a href="#" ><div class="cover-photo" style="background-image:url({{images.cover}});" alt="{{projectName}}"></div></a>
+                <figcaption>{{projectName}}</figcaption>
+                </figure>
+                <div class="highlight"></div>
+              </li>
+            {{/each}}
+          </script> 
+        </ul>
 
 
-   	<div class="background">
-   		<ul>
-   			<li>D</li>
-   			<li>E</li>
-   			<li>B</li>
-   			<li>O</li>
-   			<li>R</li>
-   			<li>A</li>
-   			<li>H</li>
-   		</ul>
-   	</div>
+       	<div class="background" style="font-family: Tabia Medium;">
+       		<ul>
+       			<li>D</li>
+       			<li>E</li>
+       			<li>B</li>
+       			<li>O</li>
+       			<li>R</li>
+       			<li>A</li>
+       			<li>H</li>
+       		</ul>
+       	</div>
 
-    </div>
-
-    <div class="single-product page">
-
-        <div class="overlay"></div>
-
-        <div class="preview-large">
-            <h3>Single product view</h3>
-            <img src=""/>
-            <p></p>
-
-            <span class="close">&times;</span>
         </div>
 
+        <div class="single-product page">
+
+            <!--<div class="overlay"></div>-->
+
+            <div class="preview-large">
+                <h2>Single product view</h2>
+                <img src=""/>
+                <p></p>
+                <p id="projectDescription"></p>
+
+                <span class="close">&times;</span>
+            </div>
+
+      </div>
+
+      <div class="error page">
+          <h3>Sorry, something went wrong :(</h3>
+      </div>
+
     </div>
-
-    <div class="error page">
-        <h3>Sorry, something went wrong :(</h3>
-    </div>
-
-</div>
-
+    <footer style="background-color:black;color:white;height:100px;font-family: Tabia Medium;font-size:22px;"> This is a footer for this page.</div>
 
 
 
@@ -76,3 +90,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
   <script src="assets/js/script.js"></script>
 </html>
+
+<!--Thank you to the examples shared in Making a Single Page App Without a Framework https://tutorialzine.com/2015/02/single-page-app-without-a-framework -->
