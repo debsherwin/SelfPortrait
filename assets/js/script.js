@@ -260,7 +260,7 @@ $(function () {
           container.find('h2').text(item.projectName);
           container.find('img').attr('src', item.images.cover);
           container.find('p').text(item.description);
-          container.find('#projectDescription').load( "assets/content/projectDescription"+item.id+".html" );
+          container.find('#projectDescription').load( "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/content/projectDescription"+item.id+".html" );
         }
       });
     }
