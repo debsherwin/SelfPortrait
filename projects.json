@@ -2,7 +2,7 @@
   {
     "id": 1,
     "projectName": "Utility Dashboard",
-    "description": "first item. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "first item. Lorem ipsum dolor sit amet.",
     "images": {
       "cover": "https://www.organicfacts.net/wp-content/uploads/2013/05/Fruits3.jpg",
       "slideshow": [
@@ -15,8 +15,8 @@
   },
   {
   "id": 2,
-  "projectName": "Utility Dashboard",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "projectName": "Group Messenger",
+  "description": "Lorem ipsum dolor sit amet..",
   "images": {
     "cover": "/images/cover.jpg",
     "slideshow": [
