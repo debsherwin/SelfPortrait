@@ -6,9 +6,9 @@
     "images": {
       "cover": "https://www.organicfacts.net/wp-content/uploads/2013/05/Fruits3.jpg",
       "slideshow": [
-        { "caption":"Caption 1", "image":"/images/image1.jpg" },
-        { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-        { "caption":"Caption 3", "image":"/images/image3.jpg" }
+        { "caption":"Caption 1", "image":"https://www.organicfacts.net/wp-content/uploads/2013/05/Fruits3.jpg" },
+        { "caption":"Caption 2", "image":"https://www.organicfacts.net/wp-content/uploads/2013/05/Fruits3.jpg"  },
+        { "caption":"Caption 3", "image":"https://www.organicfacts.net/wp-content/uploads/2013/05/Fruits3.jpg" }
       ]
     }
 

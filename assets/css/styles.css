@@ -75,9 +75,6 @@ body{
 	
 }
 
-.main-content h3{
-	padding-bottom: 20px;
-}
 
 @media (max-width: 500px){
 
@@ -254,7 +251,7 @@ figcaption {
 
 
 /*---------------------------
-	Single Product Page
+	Single Project Page
 ----------------------------*/
 
 .single-product{
@@ -308,8 +305,16 @@ figcaption {
 
 .preview-large p{
 	line-height: 23px;
-	padding: 25px 0px;
+	padding: 0px 0px 25px 0px;
 	max-width:500px;
+}
+
+.preview-large ul{
+	list-style: disc;
+}
+
+.preview-large h3{
+	font-weight: bold;
 }
 
 .close{
