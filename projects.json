@@ -29,8 +29,8 @@
 },
   {
   "id": 3,
-  "projectName": "Utility Dashboard",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "projectName": "Leak Alerts & Resolution",
+  "description": "Lorem ipsum dolor sit amet, cMaecenas luctus ante in neque maximus, sedpit nec, feugiat at odio. Etiam eget tellus arcu.",
   "images": {
     "cover": "/images/cover.jpg",
     "slideshow": [
@@ -43,7 +43,7 @@
 },
   {
   "id": 4,
-  "projectName": "Utility Dashboard",
+  "projectName": "Onboarding Experience",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
   "images": {
     "cover": "/images/cover.jpg",

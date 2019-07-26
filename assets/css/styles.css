@@ -312,6 +312,7 @@ figcaption {
 
 .preview-large ul{
 	list-style: disc;
+	padding: 0px 0px 25px 0px;
 }
 
 .preview-large h3{
