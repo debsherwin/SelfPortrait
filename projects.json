@@ -57,7 +57,7 @@
 },
   {
   "id": 5,
-  "projectName": "",
+  "projectName": "Zoobies Magazine",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
   "images": {
     "cover": "/images/cover.jpg",
@@ -71,7 +71,7 @@
 },
   {
   "id": 6,
-  "projectName": "Utility Dashboard",
+  "projectName": "Heartland Alliance Branding",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
   "images": {
     "cover": "/images/cover.jpg",
