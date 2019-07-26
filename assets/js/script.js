@@ -109,9 +109,6 @@ $(function () {
 
     // Manually trigger a hashchange to start the app.
     $(window).trigger('hashchange');
-
-
-    $( ".sampletext" ).load( "assets/content/sampletext1.html" );
   });
 
 

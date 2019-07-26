@@ -345,4 +345,44 @@ figcaption {
 	font-size: 40px;
 }
 
-*/
+
+
+/*---------------------------
+	Footer
+----------------------------*/
+
+footer{
+	background-color:#00af8a;
+	color:white;
+	padding:25px;
+	display:grid;
+	grid-template-columns: auto;
+	transition: 1s;
+}
+
+
+address {
+	max-width:900px;
+	display:grid;
+	grid-template-columns: auto auto auto;
+}
+
+.copyright{
+	font-size: 10px;
+	opacity:0.5;
+	max-width:900px;
+	display:block;
+}
+
+@media (max-width: 500px){
+
+	.footer{
+		padding: 25px;
+
+	}
+
+	address {
+	grid-template-rows: auto auto;
+	}
+
+}
