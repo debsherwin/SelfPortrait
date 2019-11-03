@@ -5,7 +5,6 @@
     "description": "",
     "images": {
       "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/dashboard_hero.jpg",
-      "coverAlt": "project hero image",
       "slideshow": [
         { "caption":"Caption 1", "image":"https://www.organicfacts.net/wp-content/uploads/2013/05/Fruits3.jpg" },
         { "caption":"Caption 2", "image":"https://www.organicfacts.net/wp-content/uploads/2013/05/Fruits3.jpg"  },

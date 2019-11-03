@@ -256,7 +256,7 @@ $(function () {
           // Populate '.preview-large' with the chosen product's data.
           container.find('h2').text(item.projectName);
           container.find('img').attr('src', item.images.cover);
-          container.find('img').attr('alt', item.images.coverAlt);
+          container.find('img').attr('alt', item.projectName);
           container.find('p').text(item.description);
           container.find('#projectDescription').load( "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/content/projectDescription"+item.id+".html" );
         }
