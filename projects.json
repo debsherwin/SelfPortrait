@@ -18,7 +18,7 @@
   "projectName": "Group Messenger",
   "description": "Lorem ipsum dolor sit amet..",
   "images": {
-    "cover": "/images/cover.jpg",
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/dashboard_hero.jpg",
     "slideshow": [
       { "caption":"Caption 1", "image":"/images/image1.jpg" },
       { "caption":"Caption 2", "image":"/images/image2.jpg"  },
@@ -32,7 +32,7 @@
   "projectName": "Leak Alerts & Resolution",
   "description": "Lorem ipsum dolor sit amet, cMaecenas luctus ante in neque maximus, sedpit nec, feugiat at odio. Etiam eget tellus arcu.",
   "images": {
-    "cover": "/images/cover.jpg",
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/dashboard_hero.jpg",
     "slideshow": [
       { "caption":"Caption 1", "image":"/images/image1.jpg" },
       { "caption":"Caption 2", "image":"/images/image2.jpg"  },
