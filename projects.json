@@ -4,7 +4,7 @@
     "projectName": "Utility Dashboard",
     "description": "first item. Lorem ipsum dolor sit amet.",
     "images": {
-      "cover": "/assets/images/dashboard_hero.jpg",
+      "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/dashboard_hero.jpg",
       "coverAlt": "project hero image",
       "slideshow": [
         { "caption":"Caption 1", "image":"https://www.organicfacts.net/wp-content/uploads/2013/05/Fruits3.jpg" },
