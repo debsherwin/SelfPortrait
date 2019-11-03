@@ -2,7 +2,7 @@
   {
     "id": 1,
     "projectName": "Utility Dashboard",
-    "description": "first item. Lorem ipsum dolor sit amet.",
+    "description": "",
     "images": {
       "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/dashboard_hero.jpg",
       "coverAlt": "project hero image",
