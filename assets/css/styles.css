@@ -182,7 +182,7 @@ p{
 	/*-ms-transform: skewY(160deg); /* IE 9 */
     /*-webkit-transform: skewY(160deg); /* Safari */
     /*transform: skewY(160deg);*/
-    background-color:rgba(4,4,4,0.5);
+    background-color:black;
     overflow: hidden;
     background-size:cover;
 }
