@@ -44,9 +44,9 @@
   {
   "id": 4,
   "projectName": "Onboarding Experience",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "description": "",
   "images": {
-    "cover": "/images/cover.jpg",
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/onboarding_settings.png",
     "slideshow": [
       { "caption":"Caption 1", "image":"/images/image1.jpg" },
       { "caption":"Caption 2", "image":"/images/image2.jpg"  },
@@ -58,9 +58,9 @@
   {
   "id": 5,
   "projectName": "Zoobies Magazine",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "description": "",
   "images": {
-    "cover": "/images/cover.jpg",
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/8_Zoobies_1.jpg",
     "slideshow": [
       { "caption":"Caption 1", "image":"/images/image1.jpg" },
       { "caption":"Caption 2", "image":"/images/image2.jpg"  },
