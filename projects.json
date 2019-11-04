@@ -72,9 +72,9 @@
   {
   "id": 6,
   "projectName": "Heartland Alliance Branding",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "description": "",
   "images": {
-    "cover": "/images/cover.jpg",
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/heartland_space_world.jpg",
     "slideshow": [
       { "caption":"Caption 1", "image":"/images/image1.jpg" },
       { "caption":"Caption 2", "image":"/images/image2.jpg"  },
