@@ -336,6 +336,11 @@ figcaption {
 	letter-spacing: 0.1em;
 }
 
+.preview-large blockquote{
+	font: normal 22px 'EB Garamond', Georgia, serif;
+	font-style: italic;
+}
+
 
 .close{
 	position: absolute;
