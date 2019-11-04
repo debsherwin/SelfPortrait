@@ -32,7 +32,7 @@
   "projectName": "Leak Alerts & Resolution",
   "description": "",
   "images": {
-    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/leaks_hero.jpg",
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/leaks_hero.png",
     "slideshow": [
       { "caption":"Caption 1", "image":"/images/image1.jpg" },
       { "caption":"Caption 2", "image":"/images/image2.jpg"  },
