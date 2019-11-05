@@ -91,6 +91,14 @@ $(function () {
         $('.projects-list').removeClass('hidden');
       }
 
+
+       // // forward button goes to the next project.
+      if (clicked.hasClass('forward')) {
+        
+      }
+
+
+
     }
 
   });
@@ -128,7 +136,6 @@ $(function () {
 
     // Hide whatever page is currently shown.
     $('.main-content .page').removeClass('visible');
-
 
     var map = {
 

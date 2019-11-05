@@ -80,7 +80,7 @@ p{
 }
 
 
-@media (max-width: 500px){
+@media (max-device-width: 500px){
 
 	.main-content{
 		margin: 25px auto;
@@ -98,6 +98,8 @@ p{
 	position:absolute;
 	z-index: -1;
 	top: 30%;
+	left: 5%;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .background > ul {
@@ -115,31 +117,15 @@ p{
 	margin: 30px 10px 0px;
 	transition: 0.5s;
 	color:#00af8a;
-}
-
-@media (max-width: 800px){
-
-	.background > ul {
-		font-size: 145px;
-		grid-template-columns: auto auto auto auto;
-	}
-
-	.background li  {
-	margin: -10px;
-}
-
-}
-
-@media (max-width: 500px){
-
-	.background > ul {
-		font-size: 145px;
-		grid-template-columns: auto auto auto;
-	}
-
-	.background li  {
 	margin: -5px;
 }
+
+@media (max-device-width: 800px){
+
+	.background > ul {
+		font-size: 30vw;
+		grid-template-columns: auto auto auto auto;
+	}
 
 }
 
@@ -161,6 +147,7 @@ p{
 	grid-row-gap: 40px;
 	z-index: 1;
 	position: relative;
+	mix-blend-mode: multiply;
 }
 
 #hack {
@@ -231,7 +218,7 @@ figcaption {
 
 /* Making the list responsive */
 
-@media (max-width: 800px){
+@media (max-device-width: 800px){
 
 	.projects-list{
 		grid-template-columns: auto auto auto;
@@ -242,10 +229,13 @@ figcaption {
 	#hack {
 		grid-column: 2 / 3;
 }
+	.cover-photo {
+		height: 200px;
+	}
 
 }
 
-@media (max-width: 500px){
+@media (max-device-width: 500px){
 
 	.projects-list{
 		grid-template-columns: auto;
@@ -255,6 +245,9 @@ figcaption {
 	#hack {
 		grid-column: 1 / 1;
 }
+	.cover-photo {
+		height: 300px;
+	}
 
 }
 
@@ -274,9 +267,18 @@ figcaption {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: red;
+	background-color: white;
+	opacity:0;
 	transition: 0.6s;
 	z-index: 100;
+}
+
+.single-product {
+	display:none;
+}
+
+.single-product.visible {
+	display:block;
 }
 	
 .single-product.visible .overlay{
@@ -286,7 +288,7 @@ figcaption {
 .preview-large{
 	box-sizing: border-box;
 	height: 100%;
-	position: relative	;
+	position: relative;
 	margin: 50px auto;
 	pointer-events: none;
 	background-color:  #ffffff;
@@ -343,15 +345,42 @@ figcaption {
 }
 
 
-.close{
-	position: absolute;
-	right: 25px;
-	top: 15px;
-
-	font-size: 28px;
+.close, .forward{
+    position: fixed;
+    right: 45px;
+    font-size: 100px;
 	color: #555;
 	cursor: pointer;
+	font-weight: 400;
 }
+
+.close{
+    top: 100px;
+}
+
+.forward{
+    top: 200px;
+}
+
+
+/* Making the project view responsive */
+
+@media (max-device-width: 800px){
+
+	.preview-large p{
+		max-width:700px;
+	}
+
+	.preview-large img{
+	max-width:700px;
+	}
+
+	.preview-large {
+		margin-right:0;
+	}
+}
+
+
 
 
 /*---------------------------
@@ -391,6 +420,7 @@ footer{
 	transition: 1s;
 	font-size: 2vw;
 	z-index:200;
+	height:20vh;
 }
 
 
@@ -410,7 +440,7 @@ address {
 
 /* media query not working??*/
 
-@media (max-width: 500px){
+@media (max-device-width: 500px){
 
 	.footer{
 		padding: 25px;
