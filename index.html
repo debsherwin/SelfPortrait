@@ -37,7 +37,7 @@
         </ul>
 
 
-       	<div class="background visible" style="">
+       	<div class="background visible" aria-hidden="true">
        		<ul>
        			<li>D</li>
        			<li>E</li>
@@ -55,18 +55,19 @@
 
             <div class="overlay"></div>
 
-            <div class="preview-large">
+            <div class="preview-large" role="dialog">
                 <h2>Single product view</h2>
                 <img src="" alt=""/>
                 <p id="projectDescription"></p>
 
-                <span class="close">&times;</span>
-                <span class="forward">></span>
+                <span class="close" role="button"  aria-label="Close Modal">&times;</span>
+                <span class="forward" role="button"  aria-label="Next Project">></span>
+                <span class="backward" role="button" aria-label="Previous Project"><</span>
             </div>
 
       </div>
 
-      <div class="error page">
+      <div class="error page" role="dialog">
           <h3>Sorry, something went wrong :(</h3>
       </div>
 

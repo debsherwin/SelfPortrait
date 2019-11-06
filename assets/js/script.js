@@ -91,10 +91,42 @@ $(function () {
         $('.projects-list').removeClass('hidden');
       }
 
+       // // Get the current location.
+        var url = window.location.hash;
+        var startIndex = url.split('#product/')[1].trim();
 
        // // forward button goes to the next project.
       if (clicked.hasClass('forward')) {
+        var endIndex = Number(startIndex)+1;
         
+        $.getJSON( "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/projects.json", function( data ) {
+        products = data;
+        var projectTotal = (products.length);
+          if (endIndex>projectTotal) {
+          window.location.hash = '#product/' + 1;
+          }
+          else{
+          window.location.hash = '#product/' + endIndex;
+          }
+          });
+
+      }
+
+       // // backward button goes to the previous project.
+      if (clicked.hasClass('backward')) {
+        var endIndex = Number(startIndex)-1;
+        
+        $.getJSON( "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/projects.json", function( data ) {
+        products = data;
+        var projectTotal = (products.length);
+          if (endIndex==0) {
+          window.location.hash = '#product/' + projectTotal;
+          }
+          else{
+          window.location.hash = '#product/' + endIndex;
+          }
+          });
+
       }
 
 

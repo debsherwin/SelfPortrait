@@ -66,6 +66,19 @@ p{
 }
 
 
+@media (max-device-width: 900px){
+	body, h3{
+		font: normal 700 30px 'Open Sans', Helvetica, Arial, sans-serif;
+	}
+
+	p{
+		font: normal 45px 'EB Garamond', Georgia, serif;
+
+	}
+
+}
+
+
 
 /*-----------------
 	Main Content
@@ -291,7 +304,6 @@ figcaption {
 	position: relative;
 	margin: 50px auto;
 	pointer-events: none;
-	background-color:  #ffffff;
 	z-index: 102;
 	opacity: 0;
 	transition: 0.4s;
@@ -306,7 +318,7 @@ figcaption {
 
 .preview-large h2{
 	margin: 20px 0px;
-	font-size:22px;
+	font-size:1.4em;
 }
 
 
@@ -318,7 +330,7 @@ figcaption {
 }
 
 .preview-large p{
-	line-height: 23px;
+	line-height: 1.4;
 	margin: 0px 0px 25px 0px;
 	max-width:500px;
 }
@@ -333,19 +345,17 @@ figcaption {
 }
 
 .preview-large figcaption{
-	font: normal 17px 'EB Garamond', Georgia, serif;
-	font-variant: small-caps;
-	letter-spacing: 0.1em;
+	font: italic 1em 'EB Garamond', Georgia, serif;
 }
 
 .preview-large blockquote{
-	font: normal 22px 'EB Garamond', Georgia, serif;
+	font: normal 1.4em 'EB Garamond', Georgia, serif;
 	font-style: italic;
 	margin: 0px 0px 25px 0px;
 }
 
 
-.close, .forward{
+.close, .forward, .backward{
     position: fixed;
     right: 45px;
     font-size: 100px;
@@ -354,12 +364,20 @@ figcaption {
 	font-weight: 400;
 }
 
+.close:hover, .forward:hover, .backward:hover{
+    color:#000;
+}
+
 .close{
-    top: 100px;
+    top: 150px;
 }
 
 .forward{
-    top: 200px;
+    top: 250px;
+}
+
+.backward{
+	top:350px;
 }
 
 
@@ -372,15 +390,13 @@ figcaption {
 	}
 
 	.preview-large img{
-	max-width:700px;
+		max-width:700px;
 	}
 
 	.preview-large {
 		margin-right:0;
 	}
 }
-
-
 
 
 /*---------------------------
