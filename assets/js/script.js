@@ -99,7 +99,7 @@ $(function () {
       if (clicked.hasClass('forward')) {
         var endIndex = Number(startIndex)+1;
         
-        $.getJSON( "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/projects.json", function( data ) {
+        $.getJSON( "projects.json", function( data ) {
         products = data;
         var projectTotal = (products.length);
           if (endIndex>projectTotal) {
@@ -116,7 +116,7 @@ $(function () {
       if (clicked.hasClass('backward')) {
         var endIndex = Number(startIndex)-1;
         
-        $.getJSON( "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/projects.json", function( data ) {
+        $.getJSON( "projects.json", function( data ) {
         products = data;
         var projectTotal = (products.length);
           if (endIndex==0) {
@@ -139,7 +139,7 @@ $(function () {
   // These are called on page load
 
   // Get data about our products from products.json.
-  $.getJSON( "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/projects.json", function( data ) {
+  $.getJSON( "projects.json", function( data ) {
 
     // Write the data into our global variable.
     products = data;
@@ -149,6 +149,7 @@ $(function () {
 
     // Manually trigger a hashchange to start the app.
     $(window).trigger('hashchange');
+ 
   });
 
 
@@ -250,7 +251,7 @@ $(function () {
 
       window.location.hash = 'product/' + productIndex;
     })
-  }
+  };
 
   // This function receives an object containing all the product we want to show.
   function renderProductsPage(data){
@@ -297,7 +298,7 @@ $(function () {
           container.find('img').attr('src', item.images.cover);
           container.find('img').attr('alt', item.projectName);
           container.find('p').text(item.description);
-          container.find('#projectDescription').load( "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/content/projectDescription"+item.id+".html" );
+          container.find('#projectDescription').load( "assets/content/projectDescription"+item.id+".html" );
         }
       });
     }
