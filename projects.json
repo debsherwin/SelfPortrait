@@ -16,112 +16,48 @@
   {
   "id": 2,
   "projectName": "Group Messenger",
-  "description": "",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_2.png",
-    "slideshow": [
-      { "caption":"Caption 1", "image":"/images/image1.jpg" },
-      { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-      { "caption":"Caption 3", "image":"/images/image3.jpg" }
-    ]
   }
 
 },
   {
   "id": 3,
   "projectName": "Leak Alerts & Resolution",
-  "description": "",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/leaks_hero.png",
-    "slideshow": [
-      { "caption":"Caption 1", "image":"/images/image1.jpg" },
-      { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-      { "caption":"Caption 3", "image":"/images/image3.jpg" }
-    ]
   }
 
 },
   {
   "id": 4,
   "projectName": "Onboarding Experience",
-  "description": "",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/onboarding_settings.png",
-    "slideshow": [
-      { "caption":"Caption 1", "image":"/images/image1.jpg" },
-      { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-      { "caption":"Caption 3", "image":"/images/image3.jpg" }
-    ]
   }
 
 },
   {
   "id": 5,
   "projectName": "Zoobies Magazine",
-  "description": "",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/8_Zoobies_1.jpg",
-    "slideshow": [
-      { "caption":"Caption 1", "image":"/images/image1.jpg" },
-      { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-      { "caption":"Caption 3", "image":"/images/image3.jpg" }
-    ]
   }
 
 },
   {
   "id": 6,
   "projectName": "Heartland Alliance Branding",
-  "description": "",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/heartland_space_world.jpg",
-    "slideshow": [
-      { "caption":"Caption 1", "image":"/images/image1.jpg" },
-      { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-      { "caption":"Caption 3", "image":"/images/image3.jpg" }
-    ]
   }
 
 },
 {
   "id": 7,
-  "projectName": "Utility Dashboard",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "projectName": "Loyola University Health System",
   "images": {
-    "cover": "/images/cover.jpg",
-    "slideshow": [
-      { "caption":"Caption 1", "image":"/images/image1.jpg" },
-      { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-      { "caption":"Caption 3", "image":"/images/image3.jpg" }
-    ]
-  }
-
-},
-{
-  "id": 8,
-  "projectName": "Utility Dashboard",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
-  "images": {
-    "cover": "/images/cover.jpg",
-    "slideshow": [
-      { "caption":"Caption 1", "image":"/images/image1.jpg" },
-      { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-      { "caption":"Caption 3", "image":"/images/image3.jpg" }
-    ]
-  }
-
-},
-{
-  "id": 9,
-  "projectName": "Utility Dashboard",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
-  "images": {
-    "cover": "/images/cover.jpg",
-    "slideshow": [
-      { "caption":"Caption 1", "image":"/images/image1.jpg" },
-      { "caption":"Caption 2", "image":"/images/image2.jpg"  },
-      { "caption":"Caption 3", "image":"/images/image3.jpg" }
-    ]
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/11_Loyola_home.png",
   }
 
 }
