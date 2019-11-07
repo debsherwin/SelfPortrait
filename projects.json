@@ -62,6 +62,14 @@
 
 },
 {
+  "id": 8,
+  "projectName": "The Joyce Foundation",
+  "images": {
+    "cover": "assets/images/25_Joyce_AR2012_detail.gif"
+  }
+
+},
+{
   "id": 10,
   "projectName": "Identities",
   "images": {
