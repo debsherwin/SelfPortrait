@@ -60,6 +60,14 @@
     "cover": "assets/images/11_Loyola_home.png"
   }
 
+},
+{
+  "id": 10,
+  "projectName": "Identities",
+  "images": {
+    "cover": "assets/images/14_Identities_1.png"
+  }
+
 }
 
 
