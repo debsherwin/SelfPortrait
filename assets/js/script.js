@@ -89,6 +89,8 @@ $(function () {
         createQueryHash(filters);
         // show the project list
         $('.projects-list').removeClass('hidden');
+
+        $('.background').css('opacity','1');
       }
 
        // // Get the current location.
@@ -183,6 +185,7 @@ $(function () {
 
         // Show the project list, if it was hidden
       $('.projects-list').removeClass('hidden');
+
       },
 
 
@@ -193,6 +196,9 @@ $(function () {
         var index = url.split('#product/')[1].trim();
 
         renderSingleProductPage(index, products);
+
+        $('.background').css('opacity','0.2');
+
       },
 
       // Page with filtered products
