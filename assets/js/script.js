@@ -110,6 +110,7 @@ $(function () {
           else{
           window.location.hash = '#product/' + endIndex;
           }
+          window.scrollTo(0, 0);
           });
 
       }
@@ -127,6 +128,7 @@ $(function () {
           else{
           window.location.hash = '#product/' + endIndex;
           }
+          window.scrollTo(0, 0);
           });
 
       }
