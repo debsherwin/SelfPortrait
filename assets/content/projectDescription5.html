@@ -1,46 +1,60 @@
 <h3>Problem</h3>
-<p>Educational publisher Zoobooks wanted to reach a new market—parents of children 0-3—in a cost-effective way.  
-</p>
+<p>Ceres Imaging collects aerial imagery of agricultural land to provide birds-eye views of crop health and irrigation problems. To-date, these analytic assessments were delivered to the farm manager in a static image format—a format that could only be ‘read’ by a trained human who could ‘eyeball’ problem patterns or trends.</p>
 
 <h3>Goals</h3>
-	<ul>
-		<li>Extend the Zoobooks magazine product line with age-appropriate content</li>
-		<li>Include interactive experiences for parents that go ‘beyond the page’</li>
-		<li>Create evergreen content that can be republished as children age out of the subscription</li>
+<ul>
+	<li>Use a vector-based map to unlock the quantified data in the aerial imagery</li>
+	<li>Enable an untrained user to identify salient patterns and trends</li>
+	<li>Visualize the impact of actions taken in-field</li>
+	<li>Aggregate insights across fields</li>
 	</ul>
 
+<figure>
+<figcaption>before</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_before.png" alt="Map view before redesign">
+<figcaption>after</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_after_3d.png" alt="Map view after redesign">
+</figure>
 
 <h3>Process</h3>
-<p>I reviewed a wide range of books and magazines for very young children to understand what made for a visually engaging experience. I also researched key concepts in early childhood development which we could feature: high contrast, shape, color, motion, interpersonal relationships, and facial expressions. </p>
+<p>This paradigm shift in Ceres’s customer-facing deliverable was developed in several phases over multiple growing seasons. In all phases, my role was to align our dataset with the real-world management workflows of our farm managers.
 
-<p>This translated into a serializable magazine concept with a consistent structure: ‘meeting’ the animal, exploring the animal’s physical attributes and actions, and ending with a rhyme and a game. We offered parents a tip guide and prompted them to point, open flaps, make funny noises and offer snuggles at appropriate moments.</p>
+In the first phase, I conducted discovery sessions to understand the key points of their workflow. Identifying high variability within a field, was a priority. So when we introduced vector-based map layers with tree- and vine-level data, these layers came packaged with a dynamic ‘histo-legend’ that a) described the metric b) displayed the distribution and c) acted as a  clickable filter to find and count the most-stressed plants.
 
-<figure>
-<figcaption>Interactive content</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/8_zoobies_3.jpg" alt="find the bears page">
-<figcaption>Meet the animal</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/8_zoobies_4.jpg" alt="meet the turtle page">
-</figure>
-
-<p>We used ‘elephants’ to demonstrate the concept, and I audited Zoobooks existing photography library to create an ‘editorial calendar’ of animals with the most assets available.</p>
 
 <figure>
-<figcaption>High contrast spread</figcaption>
-<img src="assets/images/8_Zoobies_2.jpg" alt="baby deer page">
+<figcaption>"Histo-legend"</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/fhistolegend.png" alt="the distribution of the crop analytic data">
+</figure>
+We contained the “histo-legend” in a flexible panel that could be progressively revealed, or made compact, depending on screen size or the scope of data in the view.
+
+<figure>
+<figcaption>Alternative modes</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_mobile_compact.png" alt="panel in mobile compact mode">
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_mobile_overlay.png" alt="panel in mobile expanded mode">
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_raster_split.png" alt="panel in split content mode">
+</figure>
+User feedback was overwhelmingly positive: the bar chart view was easy to understand at a glance and could be communicated clearly to upper management. But it was still difficult to compare one distribution to another, to understand if field actions effectively improved crop health.
+
+So in the next phase—in addition to supporting a wider variety of crops with a variety of new data granularities—we curated charts to highlight important comparisons. Water Stress is expected to change week-to-week, so a ‘Tornado chart” illustrates short-term changes. Vegetative metrics follow a slow curve, so they have a time series of the field average that can be compared year-over-year.
+
+<figure>
+<figcaption>"Flight-over-Flight" charts</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_tornado_water_stress.png" alt="chart contrasting one distribution with another">
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_ndvi_timeseries.png" alt="a year-over-year time series of a crop metric">
 </figure>
 
-<h3>Outcome</h3>
-<p>The concept was approved and we were engaged to fully produce the first six issues, available at zoobooks.com.
+This feature set was also well-received by farm managers, but the value was bottle-necked by the fact that the user had to navigate through individual farms and fields to find the direction of each trend. Our response was to aggregate and rank field- and zone-level in the map view and on a dedicated summary page.
+
+<figure>
+<figcaption>Summary Page</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/fanalysis_home_page.png" alt="alt content">
+</figure>
 </p>
 
-<figure>
-<figcaption>Six issues</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/8_Zoobies_covers.gif" alt="series of six covers">
-</figure>
-
+<h3>Outcome</h3>
+<p>Farm managers across four continents are able to analyze millions of acres, enabling them to precisely target water, fertilizer, and labor.</p>
 
 <h3>Credits</h3>
-<ul><li>My role: Research, Concept Development, Visual Design</li>
-<li>Designed at: Kym Abrams Design</li>
-<li>Beth Sycamore: Writer</li>
-<li>Renee Burch: Editor</li></ul>
+<ul><li>My role: Information Design, Interface Design, User Research</li>
+<li>Ceres Imaging: Development</li></ul>
