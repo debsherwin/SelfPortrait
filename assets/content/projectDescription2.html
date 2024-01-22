@@ -1,34 +1,59 @@
 <h3>Problem</h3>
-<p>Water utility staff do not have an easy way to reach constituents quickly to communicate urgent service information or to promote programs and events. They rely on printed bill inserts which are neither timely nor targeted.
-</p>
+<p>Ceres Imaging collects aerial imagery of agricultural land to provide birds-eye views of crop health and irrigation problems. To-date, these analytic assessments were delivered to the farm manager in a static image format—a format that could only be ‘read’ by a trained human who could ‘eyeball’ problem patterns or trends.</p>
 
 <h3>Goals</h3>
-	<ul>
-		<li>Add a digital messaging workflow to the WaterSmart Dashboard</li>
-		<li>Leverage reporting in the platform to select contacts</li>
-		<li>Reach those contacts in a personalized way with minimal effort</li>
+<ul>
+	<li>Use a vector-based map to unlock the quantified data in the aerial imagery</li>
+	<li>Enable an untrained user to identify salient patterns and trends</li>
+	<li>Visualize the impact of actions taken in-field</li>
+	<li>Aggregate insights across fields</li>
 	</ul>
 
+<figure>
+<figcaption>before</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_before.png" alt="Map view before redesign">
+<figcaption>after</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_after.png" alt="Map view after redesign">
+</figure>
 
 <h3>Process</h3>
-<p>I designed a Builder <span style="font-variant:small-caps;">ui</span>  element to walk the user through the various steps of composing content and selecting contacts. We did a soft launch of email messaging with beta users and used their feedback to improve the workflow. We also improved targeting capabilities based on the use cases they demonstrated. When demand was sufficient, we added text and voice messaging.
+<p>This paradigm shift in Ceres’s customer-facing deliverable was developed in several phases over multiple growing seasons. In all phases, my role was to align our dataset with the real-world management workflows of our farm managers.
+
+<p>In the first phase, I conducted discovery sessions to understand the key points of their workflow. Identifying high variability within a field, was a priority. So when we introduced vector-based map layers with tree- and vine-level data, these layers came packaged with a dynamic ‘histo-legend’ that a) described the metric b) displayed the distribution and c) acted as a  clickable filter to find and count the most-stressed plants.</p>
+
+
+<figure>
+<figcaption>"Histo-legend"</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/histolegend.png" alt="the distribution of the crop analytic data">
+</figure>
+<p>We contained the “histo-legend” in a flexible panel that could be progressively revealed, or made compact, depending on screen size or the scope of data in the view.</p>
+
+<figure>
+<figcaption>Alternative modes</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_mobile_combined.png" alt="panel in mobile compact and expanded modes">
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_raster_split.png" alt="panel in split content mode">
+</figure>
+<p>User feedback was overwhelmingly positive: the bar chart view was easy to understand at a glance and could be communicated clearly to upper management. But it was still difficult to compare one distribution to another, to understand if field actions effectively improved crop health.</p>
+
+<p>So in the next phase—in addition to supporting a wider variety of crops with a variety of new data granularities—we curated charts to highlight important comparisons. Water Stress is expected to change week-to-week, so a ‘Tornado chart” illustrates short-term changes. Vegetative metrics follow a slow curve, so they have a time series of the field average that can be compared year-over-year.</p>
+
+<figure>
+<figcaption>"Flight-over-Flight" charts</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_tornado_water_stress.png" alt="chart contrasting one distribution with another">
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_ndvi_timeseries_alt2.png" alt="a year-over-year time series of a crop metric">
+</figure>
+
+<p>This feature set was also well-received by farm managers, but the value was bottle-necked by the fact that the user had to navigate through individual farms and fields to find the direction of each trend. Our response was to aggregate and rank field- and zone-level in the map view and on a dedicated summary page.</p>
+
+<figure>
+<figcaption>Summary Page</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_home_page.png" alt="alt content">
+</figure>
 </p>
 
 <h3>Outcome</h3>
-<p>Utility staff are delighted with how easily they can perform outreach. With no <span style="font-variant:small-caps;">pr</span> or marketing training, they can proactively communicate instead of reacting to complaints. Within 18 months it was adopted by 45% of the utility user base and over 420,000 individual messages were delivered. </p>
-
-<figure>
-<figcaption>message builder</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_animated.gif" alt="animation of message builder workflow">
-<figcaption>select delivery method</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_1.png" alt="messenger select method step">
-<figcaption>filter audience</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_4.png" alt="messenger filter audience step">
-<figcaption>personalized email</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_email.jpg" alt="personalized email">
-</figure>
+<p>Farm managers across four continents are able to analyze millions of acres, enabling them to precisely target water, fertilizer, and labor.</p>
 
 <h3>Credits</h3>
-<ul><li>My role: UX Design, Interface Design</li>
-<li>Emily Kleeman: Product Management, User Research</li>
-<li>WaterSmart Engineering: Development</li></ul>
+<ul><li>My role: Information Design, Interface Design, User Research</li>
+<li>Ceres Imaging: Development</li></ul>

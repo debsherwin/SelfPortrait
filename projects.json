@@ -15,6 +15,14 @@
   },
   {
   "id": 2,
+  "projectName": "Crop Health Analytics",
+  "images": {
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_after_3d.png"
+  }
+
+},
+    {
+  "id": 3,
   "projectName": "Group Messenger",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_2.png"
@@ -22,7 +30,7 @@
 
 },
   {
-  "id": 3,
+  "id": 4,
   "projectName": "Leak Alerts & Resolution",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/leaks_hero.png"
@@ -30,18 +38,10 @@
 
 },
   {
-  "id": 4,
+  "id": 5,
   "projectName": "Onboarding Experience",
   "images": {
     "cover": "assets/images/onboarding_settings.png"
-  }
-
-},
-  {
-  "id": 5,
-  "projectName": "Crop Health Analytics",
-  "images": {
-    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/analysis_panel_after.png"
   }
 
 },
