@@ -1,34 +1,54 @@
 <h3>Problem</h3>
-<p>Water utility staff do not have an easy way to reach constituents quickly to communicate urgent service information or to promote programs and events. They rely on printed bill inserts which are neither timely nor targeted.
+<p>Ceres Imaging collects aerial imagery of agricultural land to provide bird’s-eye views of crop health and irrigation problems. These images are delivered in a map-based web app, along with annotations from Ceres staff analysts that guide the recipient as to where within the field to find the worst leaks, clogged irrigation lines and other time-sensitive issues. These ‘markers’ were noisy, and their effect in realizing value for farm managers was not demonstrable.
 </p>
 
 <h3>Goals</h3>
-	<ul>
-		<li>Add a digital messaging workflow to the WaterSmart Dashboard</li>
-		<li>Leverage reporting in the platform to select contacts</li>
-		<li>Reach those contacts in a personalized way with minimal effort</li>
+<ul>
+	<li>Deliver only the most relevant, actionable insights to farm managers</li>
+	<li>Support the managers in triaging and addressing priority problems in a timely manner while they can still impact yield</li>
+	<li>Track the status and outcomes of fixed issues</li>
 	</ul>
 
-
 <h3>Process</h3>
-<p>I designed a Builder <span style="font-variant:small-caps;">ui</span>  element to walk the user through the various steps of composing content and selecting contacts. We did a soft launch of email messaging with beta users and used their feedback to improve the workflow. We also improved targeting capabilities based on the use cases they demonstrated. When demand was sufficient, we added text and voice messaging.
+<p>The discovery phase centered on a series of active user interviews, an internal content audit, and a design sprint conducted with the analyst team. We found that
+<ol>
+	<li>many note types were informative but not actionable</li>
+	<li>the single-GPS-point pins did not accurately direct the user to the location or scope of the problem area</li>
+	<li>the task of reviewing issues was daunting, as the user need to visit each one of their fields for every flight</li>
+	<li>the only way to respond to a fixed issue was to delete the marker entirely</li>
+	<li>a farm manager did not know they had new issues to review unless they logged into the app</li>
+	</ol>
 </p>
 
-<h3>Outcome</h3>
-<p>Utility staff are delighted with how easily they can perform outreach. With no <span style="font-variant:small-caps;">pr</span> or marketing training, they can proactively communicate instead of reacting to complaints. Within 18 months it was adopted by 45% of the utility user base and over 420,000 individual messages were delivered. </p>
+</figure>
+<p>Together, we envisioned an end-to-end workflow that would result in farm managers finding real, acute problems in the field, and reporting back the results of corrective action.</p>
+
+<p>To address challenge (1), we undertook a cross-departmental initiative to make every marker ‘count’. We template-tized and edited the marker content, eliminating markers for long-term crop stress that could not be addressed with water or soil amendments.</p>
+
+<p>A new internal tool had analysts dropping markers in a ‘native’ UI that matched the farm managers’ view, and included those manager’s feedback on previous marker quality. This approach fed a virtuous loop, in which we continuously earned more of individual farm managers’ trust—their markers were ‘signal’ and not ‘noise’—Ceres saw more marker engagement, and real-world issues were resolved.</p>
+
+<p>For (2), we introduced area-based markers: polygons and rings for pivot-irrigated fields. This quantified the relative scope of problems, enabled us to aggregate and rank the affected acres across a property, and track the distribution of crop-metrics within the area over time to see if Water Stress was reduced or crop vigor improved.</p>
+
+<p>To support the review process (3), we gathered together all the marker content into a list view dubbed “Notebook”. All open issues could be sorted and filtered at a glance, then clicked into to investigate further. They could also be gathered together for a post-season review of wins.</p>
 
 <figure>
-<figcaption>message builder</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_animated.gif" alt="animation of message builder workflow">
-<figcaption>select delivery method</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_1.png" alt="messenger select method step">
-<figcaption>filter audience</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_4.png" alt="messenger filter audience step">
-<figcaption>personalized email</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_email.jpg" alt="personalized email">
-</figure>
+<figcaption>"Notebook"</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/scouting_notebook.png" alt="the list view of marker data">
+
+<p>To capture the farm managers’ responses in a more meaningful way (4), we introduced a work-order-like tagging system, with Open/Closed statuses that kept the map view clutter-free, statuses (To Do, Fixed, Monitoring, Skipped), and comments that helped the managers team communicate with each other.</p>
+
+<p>To round out this feature set, we drove traffic directly to the markers (5) by featuring the affected fields in New Imagery notifications.</p>
+
+<p>As this end-to-end system ran throughout a growing season, we groomed a backlog of improvements and features requests. This resulted in several improvements that prove invaluable to some of our most engaged users—who are most often on their mobile devices—and our Customer Success staff visiting farm managers on-site:
+<ul><li>Sharing individual markers by email or text message</li>
+<lis>Viewing and creating markers offline</lis>
+<li>On-click toggle for markers on the map view.</li></ul></p>
+
+
+<h3>Outcome</h3>
+<p>Marker interactions became the hallmark of a ‘successful’ Ceres customer. Tracking data suggested that those who created their own markers were more than twice as engaged overall.</p>
 
 <h3>Credits</h3>
-<ul><li>My role: UX Design, Interface Design</li>
-<li>Emily Kleeman: Product Management, User Research</li>
-<li>WaterSmart Engineering: Development</li></ul>
+<ul><li>My role: User Research, Interface Design, Content Design</li>
+<lis>Product Management: Kelly Coplin</lis>
+<li>Ceres Imaging: Development</li></ul>

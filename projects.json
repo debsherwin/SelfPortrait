@@ -23,6 +23,14 @@
 },
     {
   "id": 3,
+  "projectName": "Farm Manager Scouting",
+  "images": {
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/scouting_area_marker.png"
+  }
+
+},
+    {
+  "id": 4,
   "projectName": "Group Messenger",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_2.png"
@@ -30,7 +38,7 @@
 
 },
   {
-  "id": 4,
+  "id": 5,
   "projectName": "Leak Alerts & Resolution",
   "images": {
     "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/leaks_hero.png"
@@ -38,7 +46,7 @@
 
 },
   {
-  "id": 5,
+  "id": 6,
   "projectName": "Onboarding Experience",
   "images": {
     "cover": "assets/images/onboarding_settings.png"
@@ -46,7 +54,7 @@
 
 },
   {
-  "id": 6,
+  "id": 7,
   "projectName": "Heartland Alliance Branding",
   "images": {
     "cover": "assets/images/heartland_space_world.jpg"
@@ -54,7 +62,7 @@
 
 },
 {
-  "id": 7,
+  "id": 8,
   "projectName": "Loyola University Health System",
   "images": {
     "cover": "assets/images/11_Loyola_home.png"
@@ -62,7 +70,7 @@
 
 },
 {
-  "id": 8,
+  "id": 9,
   "projectName": "The Joyce Foundation",
   "images": {
     "cover": "assets/images/25_joyce_AR12_full.jpg"
@@ -70,7 +78,7 @@
 
 },
 {
-  "id": 9,
+  "id": 10,
   "projectName": "Identities",
   "images": {
     "cover": "assets/images/14_Identities_1.png"
