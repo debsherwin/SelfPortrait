@@ -333,6 +333,11 @@ figcaption {
 	padding: 0px 0px 25px 0px;
 }
 
+.preview-large ol{
+	list-style: decimal;
+	padding: 0px 0px 25px 0px;
+}
+
 .preview-large figcaption{
 	font: italic 1em 'EB Garamond', Georgia, serif;
 }
