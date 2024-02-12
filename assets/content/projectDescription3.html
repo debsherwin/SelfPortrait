@@ -1,59 +1,33 @@
 <h3>Problem</h3>
-<p>Ceres Imaging collects aerial imagery of agricultural land to provide bird’s-eye views of crop health and irrigation problems. These images are delivered in a map-based web app, along with annotations from Ceres staff analysts that guide the recipient as to where within the field to find the worst leaks, clogged irrigation lines and other time-sensitive issues. These ‘markers’ were noisy, and their effect in realizing value for farm managers was not demonstrable.
+<p>Agricultural asset managers, ag investors, agri-businesses, and crop insurance providers have access to a host of tools to monitor their assets and liabilities. But they lack an integrated view of their entire portfolio from which to derive insights.
 </p>
 
+<figure>
+<figcaption>Tracking field risk status</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/portfolio_insights_3.png" alt="sample metrics page">
+</figure>
+
 <h3>Goals</h3>
+<p style="margin-bottom: 0 !important;">Combine the analytics derived from Ceres Imaging’s proprietary dataset with a flexible interface in order to:</p> 
 <ul>
-	<li>Deliver only the most relevant, actionable insights to farm managers</li>
-	<li>Support the managers in triaging and addressing priority problems in a timely manner while they can still impact yield</li>
-	<li>Track the status and outcomes of fixed issues</li>
+	<li>Provide one-click visibility of a broad dataset—across time, geographies, and crop types</li>
+	<li>Communicate productive capacity of permanent and annual crop holdings for assessing yield potential and land value.</li>
+	<li>Support large operators and asset managers to identify in-season risks for contracting their yield </li>
+	<li>Identify opportunities for sustainability managing input costs (fertilizer, pesticides) and operating practices (tillage, irrigation)</li>
 	</ul>
 
 <h3>Process</h3>
-<p>The discovery phase centered on a series of active user interviews, an internal content audit, and a design sprint conducted with the analyst team. We found that</p>
-<p><ol style="padding-bottom: 0 !important;">
-	<li>many note types were informative but not actionable</li>
-	<li>the single-<span style="font-variant: small-caps;">gps</span>-point pins did not accurately direct the user to the location or scope of the problem area</li>
-	<li>the task of reviewing issues was daunting, as the user need to visit each one of their fields for every flight</li>
-	<li>the only way to respond to a fixed issue was to delete the marker entirely</li>
-	<li>a farm manager did not know they had new issues to review unless they logged into the app</li>
-	</ol>
-</p>
-
-<figure>
-<figcaption>Aligning on user needs</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/scouting_sprint.png" alt="handwritten notes of jobs-to-be-done"></figure>
-
-<p>Together, we envisioned an end-to-end workflow that would result in farm managers finding real, acute problems in the field, and reporting back the results of corrective action.</p>
-
-<p>To address challenge <span style="font-variant-numeric: oldstyle-nums;">(1)</span>, we undertook a cross-departmental initiative to make every marker ‘count’. We template-tized and edited the marker content, eliminating markers for long-term crop stress that could not be addressed with water or soil amendments.</p>
-
-<p>A new internal tool had analysts dropping markers in a ‘native’ <span style="font-variant: small-caps;">ui</span> that matched the farm managers’ view, and included those manager’s feedback on previous marker quality. This approach fed a virtuous loop, in which we continuously earned more of individual farm managers’ trust—their markers were ‘signal’ and not ‘noise’—Ceres saw more marker engagement, and real-world issues were resolved.</p>
-
-<p>For <span style="font-variant-numeric: oldstyle-nums;">(2)</span>, we introduced area-based markers: polygons and rings for pivot-irrigated fields. This quantified the relative scope of problems, enabled us to aggregate and rank the affected acres across a property, and track the distribution of crop-metrics within the area over time to see if Water Stress was reduced or crop vigor improved.</p>
-<figure>
-<figcaption>Ring-areas and marker statuses</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/scouting_statuses.png" alt="a field with a pivot-shaped marker"></figure>
-<p>To support the review process <span style="font-variant-numeric: oldstyle-nums;">(3)</span>, we gathered together all the marker content into a list view dubbed “Notebook”. All open issues could be sorted and filtered at a glance, then clicked into to investigate further. They could also be gathered together for a post-season review of wins.</p>
-<figure>
-<figcaption>"Notebook"</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/scouting_notebook.png" alt="the list view of marker data"></figure>
-
-<p>To capture the farm managers’ responses in a more meaningful way <span style="font-variant-numeric: oldstyle-nums;">(4)</span>, we introduced a work-order-like tagging system, with Open/Closed statuses that kept the map view clutter-free, statuses (To Do, Fixed, Monitoring, Skipped), and comments that helped the managers team communicate with each other.</p>
-
-<p>To round out this feature set, we drove traffic directly to the markers <span style="font-variant-numeric: oldstyle-nums;">(5)</span> by featuring the affected fields in New Imagery notifications.</p>
-<figure>
-<figcaption>Email notification</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/scouting_email_notification.png" alt="issues featured in an email notification"></figure>
-<p>As this end-to-end system ran throughout a growing season, we groomed a backlog of improvements and features requests. This resulted in several improvements that prove invaluable to some of our most engaged users—who are most often on their mobile devices—and our Customer Success staff visiting farm managers on-site:</p>
-<p><ul style="padding-bottom: 0 !important;"><li>Sharing individual markers by email or text message</li>
-<li>Viewing and creating markers offline</li>
-<li>On-click toggle for markers on the map view.</li></ul></p>
+<p>I defined a modular dashboard <span style="font-variant: small-caps;">ui</span> with status indicators, trend charts, interactive data grids, and maps. I worked with the Product leads, a <span style="font-variant: small-caps;">pmm</span>, enterprise Sales reps, and <span style="font-variant: small-caps;font-variant-caps: all-small-caps;">r&d</span> to translate their product discovery into discrete packages of metrics that addressed user needs and could be marketed independently. I vetted usability and content design via a continuous feedback loop with Sales and design reviews with early-adopter prospects. And I shipped the product via diligent alignment of Figma specs with product documentation, as well as extensive hands-on testing during iterative development sprints.</p>
 
 <h3>Outcome</h3>
-<p>Marker interactions became the hallmark of a ‘successful’ Ceres customer. Tracking data suggested that those who created their own markers were more than twice as engaged overall.</p>
+<p>As a neutral third-party view into agricultural assets for stakeholders at all levels of the supply chain, Portfolio Insights positions Ceres Imaging to be an institutional player as the agricultural sector matures in its digital transformation.</p>
+
+<figure>
+<figcaption>Field detail page</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/portfolio_insights_2.png" alt="detail page for a single field">
+</figure>
 
 <h3>Credits</h3>
-<ul><li>My role: User Research, Interface Design, Content Design</li>
-<li>Product Management: Kelly Coplin</li>
-<li>Ceres Imaging: Development</li></ul>
+<ul><li>My role: Information Design, Interface Design, Content Design</li>
+<li>Product Management: Jenn Strauss, Kelly Coplin, Niki Tubacki/li>
+<li>Development: Ceres Imaging teamt</li></ul>
