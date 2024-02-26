@@ -1,47 +1,34 @@
 <h3>Problem</h3>
-<p>Algorithms and machine learning can identify leaks in water consumption data. However, identifying the leak is just the first step. Water utilities need their consumers to be able to self-resolve leaks with minimal use of utility staff time. The offline and online experience must be considered as a single workflow.
+<p>Water utility staff do not have an easy way to reach constituents quickly to communicate urgent service information or to promote programs and events. They rely on printed bill inserts which are neither timely nor targeted.
 </p>
 
 <h3>Goals</h3>
 	<ul>
-		<li>Automate alerts to consumers about potential leaks</li>
-		<li>Make leak data actionable</li>
-		<li>Enable utility to track status of leak events</li> 
-		<li>Reduce utility staff time addressing leaks</li>
+		<li>Add a digital messaging workflow to the WaterSmart Dashboard</li>
+		<li>Leverage reporting in the platform to select contacts</li>
+		<li>Reach those contacts in a personalized way with minimal effort</li>
 	</ul>
 
 
 <h3>Process</h3>
-<p>We heard from utilities that unclear alerts prompted consumers to call the utility alarmed. We also knew that requiring opt-in for alert subscriptions limits their reach and that requiring authentication for leak-related content results in a large bounce rate.</p>
-
-<p>I designed an alert email with a simple chart to illustrate the problem and with language that communicated an appropriate level of urgency. The chart is accompanied by clear calls to action that use tokens to direct the recipient into a personalized self-service workflow. The email is opt-out to ensure it reaches to most possible recipients, and the subscription can be managed by both the consumer and utility staff.</p>
-
-<p>The workflow captures the user’s progress and reports that back to the utility. Once the workflow was in use, we found that users identified most leaks as toilets or irrigation, so we revised the workflow sequence to surface that information first.</p>
-
-<blockquote>&ldquo;We are very grateful for the water alerts.  The last water leak was so deep we would never have found it without the alert message.
-Thank you.&rdquo;</blockquote>
-
+<p>I designed a Builder <span style="font-variant:small-caps;">ui</span>  element to walk the user through the various steps of composing content and selecting contacts. We did a soft launch of email messaging with beta users and used their feedback to improve the workflow. We also improved targeting capabilities based on the use cases they demonstrated. When demand was sufficient, we added text and voice messaging.
+</p>
 
 <h3>Outcome</h3>
-<p>The leak resolution system successfully saved water and prevented expensive water bills and property damage. From 2015-2018, we saved 336,000 gallons of water across all utilities with alerting enabled. This helped build positive relationships between consumers and their water utilities. And it saved valuable staff time on outreach and responding to high bill calls.</p>
-
-<p>The emails were also an effective method to drive further digital engagement with the Customer Portal. It had greater than 60% open rates and an 11% follow-on portal registration rate. This far outpaced other types of letters promoting registration.</p>
+<p>Utility staff are delighted with how easily they can perform outreach. With no <span style="font-variant:small-caps;">pr</span> or marketing training, they can proactively communicate instead of reacting to complaints. Within 18 months it was adopted by 45% of the utility user base and over 420,000 individual messages were delivered. </p>
 
 <figure>
-<figcaption>Email leak alert</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/leaks_email.png" alt="email leak alert">
+<figcaption>message builder</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_animated.gif" alt="animation of message builder workflow">
+<figcaption>select delivery method</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_1.png" alt="messenger select method step">
+<figcaption>filter audience</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_4.png" alt="messenger filter audience step">
+<figcaption>personalized email</figcaption>
+<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/messenger_email.jpg" alt="personalized email">
 </figure>
-
-
-<p>Once the success of email alerts was established, we expanded alert channels to text, voice and print—working with an on-demand printing <span style="font-variant:small-caps;">api</span>. This opened a new revenue stream for WaterSmart and enabled us to reach a wider audience.</p>
-
-<figure>
-<figcaption>Print leak alert</figcaption>
-<img src="https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/leaks_print.jpg" alt="print leak alert">
-</figure>
-
 
 <h3>Credits</h3>
-<ul><li>My role: Visual Design, Content Design</li>
-<li>Kelly Coplin: Product Management</li>
+<ul><li>My role: UX Design, Interface Design</li>
+<li>Emily Kleeman: Product Management, User Research</li>
 <li>WaterSmart Engineering: Development</li></ul>
