@@ -41,7 +41,7 @@
   "id": 5,
   "projectName": "Mobile Usability Audit",
   "images": {
-    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/mobile-redesign-hero.png"
+    "cover": "https://raw.githubusercontent.com/debsherwin/SelfPortrait/master/assets/images/mobile-redesign-hero-2.png"
   }
 
 },    {
@@ -67,27 +67,19 @@
   }
 
 },
-  {
+{
   "id": 9,
-  "projectName": "Heartland Alliance Branding",
+  "projectName": "The Joyce Foundation",
   "images": {
-    "cover": "assets/images/heartland_space_world.jpg"
+    "cover": "assets/images/25_joyce_AR12_full.jpg"
   }
 
 },
 {
   "id": 10,
-  "projectName": "Loyola University Health System",
+  "projectName": "Identities",
   "images": {
-    "cover": "assets/images/11_Loyola_home.png"
-  }
-
-},
-{
-  "id": 11,
-  "projectName": "The Joyce Foundation",
-  "images": {
-    "cover": "assets/images/25_joyce_AR12_full.jpg"
+    "cover": "assets/images/14_Identities_1.png"
   }
 
 }

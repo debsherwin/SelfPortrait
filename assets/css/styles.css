@@ -391,6 +391,10 @@ figcaption {
 		max-width:80%;
 	}
 
+	.preview-large ul{
+		max-width:80%;
+	}
+
 	.preview-large img{
 		max-width:80%;
 	}
@@ -468,4 +472,16 @@ address {
 	grid-template-columns: auto;
 	}
 
+}
+
+/*---------------------------
+	base font edit
+----------------------------*/
+
+@media only screen and (min-width: 500px){
+
+	.preview-large p{
+		font-size:1.1rem;
+
+	}
 }
